@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C2C2B514D785BB0041FF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C2B414D785BB0041FF2A /* UIKit.framework */; };
+		41C2C2B714D785BB0041FF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C2B614D785BB0041FF2A /* Foundation.framework */; };
+		41C2C2B914D785BB0041FF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C2B814D785BB0041FF2A /* CoreGraphics.framework */; };
+		41C2C2BF14D785BB0041FF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C2BD14D785BB0041FF2A /* InfoPlist.strings */; };
+		41C2C2C114D785BB0041FF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C2C014D785BB0041FF2A /* main.m */; };
+		41C2C2C514D785BB0041FF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C2C414D785BB0041FF2A /* AppDelegate.m */; };
+		41C9E7BE14D7968300112F9F /* FancyTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9E7BD14D7968300112F9F /* FancyTableVC.m */; };
+		41C9E7C014D797C900112F9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9E7BF14D797C900112F9F /* QuartzCore.framework */; };
+		41C9E7DC14D7A46A00112F9F /* FancyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9E7DB14D7A46A00112F9F /* FancyTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41C2C2B014D785BB0041FF2A /* FancyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C2C2B414D785BB0041FF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C2C2B614D785BB0041FF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C2C2B814D785BB0041FF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C2C2BC14D785BB0041FF2A /* FancyTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancyTableView-Info.plist"; sourceTree = "<group>"; };
+		41C2C2BE14D785BB0041FF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C2C2C014D785BB0041FF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C2C2C214D785BB0041FF2A /* FancyTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancyTableView-Prefix.pch"; sourceTree = "<group>"; };
+		41C2C2C314D785BB0041FF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C2C2C414D785BB0041FF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C9E7BC14D7968300112F9F /* FancyTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyTableVC.h; sourceTree = "<group>"; };
+		41C9E7BD14D7968300112F9F /* FancyTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyTableVC.m; sourceTree = "<group>"; };
+		41C9E7BF14D797C900112F9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		41C9E7DA14D7A46A00112F9F /* FancyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyTableCell.h; sourceTree = "<group>"; };
+		41C9E7DB14D7A46A00112F9F /* FancyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyTableCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C2C2AD14D785BB0041FF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9E7C014D797C900112F9F /* QuartzCore.framework in Frameworks */,
+				41C2C2B514D785BB0041FF2A /* UIKit.framework in Frameworks */,
+				41C2C2B714D785BB0041FF2A /* Foundation.framework in Frameworks */,
+				41C2C2B914D785BB0041FF2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C2C2A514D785BB0041FF2A = {
+			isa = PBXGroup;
+			children = (
+				41C2C2BA14D785BB0041FF2A /* FancyTableView */,
+				41C2C2B314D785BB0041FF2A /* Frameworks */,
+				41C2C2B114D785BB0041FF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C2C2B114D785BB0041FF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C2B014D785BB0041FF2A /* FancyTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C2C2B314D785BB0041FF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C9E7BF14D797C900112F9F /* QuartzCore.framework */,
+				41C2C2B414D785BB0041FF2A /* UIKit.framework */,
+				41C2C2B614D785BB0041FF2A /* Foundation.framework */,
+				41C2C2B814D785BB0041FF2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C2C2BA14D785BB0041FF2A /* FancyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C2C314D785BB0041FF2A /* AppDelegate.h */,
+				41C2C2C414D785BB0041FF2A /* AppDelegate.m */,
+				41C9E7BC14D7968300112F9F /* FancyTableVC.h */,
+				41C9E7BD14D7968300112F9F /* FancyTableVC.m */,
+				41C9E7DA14D7A46A00112F9F /* FancyTableCell.h */,
+				41C9E7DB14D7A46A00112F9F /* FancyTableCell.m */,
+				41C2C2BB14D785BB0041FF2A /* Supporting Files */,
+			);
+			path = FancyTableView;
+			sourceTree = "<group>";
+		};
+		41C2C2BB14D785BB0041FF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C2BC14D785BB0041FF2A /* FancyTableView-Info.plist */,
+				41C2C2BD14D785BB0041FF2A /* InfoPlist.strings */,
+				41C2C2C014D785BB0041FF2A /* main.m */,
+				41C2C2C214D785BB0041FF2A /* FancyTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C2C2AF14D785BB0041FF2A /* FancyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C2C2CE14D785BB0041FF2A /* Build configuration list for PBXNativeTarget "FancyTableView" */;
+			buildPhases = (
+				41C2C2AC14D785BB0041FF2A /* Sources */,
+				41C2C2AD14D785BB0041FF2A /* Frameworks */,
+				41C2C2AE14D785BB0041FF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyTableView;
+			productName = FancyTableView;
+			productReference = 41C2C2B014D785BB0041FF2A /* FancyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C2C2A714D785BB0041FF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 41C2C2AA14D785BB0041FF2A /* Build configuration list for PBXProject "FancyTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41C2C2A514D785BB0041FF2A;
+			productRefGroup = 41C2C2B114D785BB0041FF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C2C2AF14D785BB0041FF2A /* FancyTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C2C2AE14D785BB0041FF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C2C2BF14D785BB0041FF2A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C2C2AC14D785BB0041FF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C2C2C114D785BB0041FF2A /* main.m in Sources */,
+				41C2C2C514D785BB0041FF2A /* AppDelegate.m in Sources */,
+				41C9E7BE14D7968300112F9F /* FancyTableVC.m in Sources */,
+				41C9E7DC14D7A46A00112F9F /* FancyTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41C2C2BD14D785BB0041FF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C2C2BE14D785BB0041FF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C2C2CC14D785BB0041FF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C2C2CD14D785BB0041FF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C2C2CF14D785BB0041FF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyTableView/FancyTableView-Prefix.pch";
+				INFOPLIST_FILE = "FancyTableView/FancyTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C2C2D014D785BB0041FF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyTableView/FancyTableView-Prefix.pch";
+				INFOPLIST_FILE = "FancyTableView/FancyTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C2C2AA14D785BB0041FF2A /* Build configuration list for PBXProject "FancyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C2C2CC14D785BB0041FF2A /* Debug */,
+				41C2C2CD14D785BB0041FF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C2C2CE14D785BB0041FF2A /* Build configuration list for PBXNativeTarget "FancyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C2C2CF14D785BB0041FF2A /* Debug */,
+				41C2C2D014D785BB0041FF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C2C2A714D785BB0041FF2A /* Project object */;
+}

@@ -1,0 +1,5 @@
+A fancy UITableView implementation with gradient cell backgrounds and shadows underneath that add depth (like the Clock app). All done with QuartzCore, no images used.
+
+Also, this demonstrates subclassing UITableViewCell. In this case, the default cell textLabel and detailTextLabel have white shadows. They look wonky when being selected so the subclass removes/restores said shadows when highlighted/deselected.
+
+Enjoy!
